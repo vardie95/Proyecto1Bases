@@ -8,7 +8,7 @@ $(function(){
     function siRespuesta(r){
  
         // Crear HTML con las respuestas del servidor
-        var rHtml =  r + <br/>';
+        var rHtml =  r + <br/>;
          console.log(r);
         $('#respuesta').html(rHtml);   // Mostrar la respuesta del servidor en el div con el id "respuesta"
     }
