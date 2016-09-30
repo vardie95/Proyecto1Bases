@@ -14,7 +14,7 @@ $(function(){
     }
  
     function siError(e){
-                var rHtml = 'Error: ' + e.statusText+'<br/>';
+                var rHtml = 'Error: ' + e.statusText+'<br/>;
  
         $('#respuesta').html(rHtml);   // Mostrar la respuesta del servidor en el div con el id "respuesta"
     }
